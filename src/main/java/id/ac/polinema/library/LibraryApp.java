@@ -154,7 +154,7 @@ public class LibraryApp {
         int issueNumber = readInt("Issue number: ");
 
         if (year <= 0 || issueNumber <= 0) {
-            out.println("Invalid number: ");
+            out.println("Invalid number");
             return;
         }
         if (title.isEmpty()) {

@@ -54,7 +54,7 @@ public class Member {
         return loanCount;
     }
 
-    public LibraryCard getcard() {
+    public LibraryCard getCard() {
         return card;
     }
 
