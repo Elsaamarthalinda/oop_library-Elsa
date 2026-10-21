@@ -64,7 +64,7 @@ public class LibraryApp {
     }
 
     private void printMenu() {
-        out.println("\n=== " + library.getName() + "===");
+        out.println("\n=== " + library.getName() + " ===");
         out.println("1. List items");
         out.println("2. Add book");
         out.println("3. Add DVD");
@@ -97,7 +97,7 @@ public class LibraryApp {
     private void addBook() {
         String isbn = readLine("ISBN: ");
         String title = readLine("Title: ");
-        int year = readInt("Yea: ");
+        int year = readInt("Year: ");
 
         if (year <= 0) {
             out.println("Invalid number");
@@ -182,7 +182,7 @@ public class LibraryApp {
         if (library.addMember(member)) {
             out.println("Member registered");
         } else {
-            out.println("Member ID alredy exists");
+            out.println("Member ID already exists");
         }
     }
 

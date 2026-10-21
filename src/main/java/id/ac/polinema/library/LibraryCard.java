@@ -7,7 +7,7 @@ public class LibraryCard {
         this.cardNumber = cardNumber;
     }
     
-    public String getCardNumber() {
+    public String getNumber() {
         return cardNumber;
     }
 }

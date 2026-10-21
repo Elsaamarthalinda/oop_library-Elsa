@@ -31,7 +31,7 @@ public class Member {
         this.memberId = memberId;
         setName(name);
         this.loanCount = 0;
-        this.card = new LibraryCard("card-" + memberId);
+        this.card = new LibraryCard("CARD-" + memberId);
     }
 
     public String getMemberId() {
@@ -52,6 +52,10 @@ public class Member {
 
     public int getLoanCount() {
         return loanCount;
+    }
+
+    public LibraryCard getcard() {
+        return card;
     }
 
     /** True jika anggota masih boleh meminjam (batasnya 3 pinjaman). */

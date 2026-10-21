@@ -11,8 +11,12 @@ public class Dvd extends LibraryItem {
         this.duration = duration;
     }
 
-    public int getDuration() {
+    public int getDurationMinutes() {
         return duration;
+    }
+
+    public int getDuration() {
+        return getDurationMinutes();
     }
 
     @Override

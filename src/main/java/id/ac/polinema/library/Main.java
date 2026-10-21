@@ -17,7 +17,7 @@ public class Main {
         System.out.println("Welcome to Polinema Library");
 
         Library library = new Library("Polinema Library");
-        Author author = new Author("Robery Martin", "USA");
+        Author author = new Author("Robert Martin", "USA");
         Book book = new Book("978-0132350884", "Clean Code", 2008, author);
         Dvd dvd = new Dvd("Inception", 2010, 148);
         Magazine magazine = new Magazine("Tempo", 2024, 7);

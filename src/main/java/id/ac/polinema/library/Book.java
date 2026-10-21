@@ -59,39 +59,4 @@ public class Book extends LibraryItem {
         String authorName = (author != null && author.getName() != null) ? author.getName() : "Unknown";
         return super.describe() + " by " + authorName;
     }
-
-    @Override
-    public String getTitle() {
-        return super.getTitle();
-    }
-
-    @Override
-    public int getYear() {
-            return super.getYear();
-    }
-
-    @Override
-    public boolean isAvailable() {
-        return super.isAvailable();
-    }
-
-    @Override
-    public boolean checkOut() {
-        return super.checkOut();
-    }
-
-    @Override
-    public void returnItem() {
-        super.returnItem();
-    }
-
-    @Override
-    public void setTitle(String title) {
-        super.setTitle(title);
-    }
-
-    @Override
-    public void setYear(int year) {
-        super.setYear(year);
-    }
 }

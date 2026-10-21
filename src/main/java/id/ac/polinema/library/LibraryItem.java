@@ -18,7 +18,7 @@ public class LibraryItem {
     }
 
     public void setTitle(String title) {
-        if (title == null || title.isEmpty()) {
+        if (title == null || title.trim().isEmpty()) {
             throw new IllegalArgumentException("title cannot be null or empty");
         }
         this.title = title;
